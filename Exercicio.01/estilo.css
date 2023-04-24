@@ -1,0 +1,14 @@
+.container h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.tabela {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
