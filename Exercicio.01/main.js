@@ -8,10 +8,10 @@ function Calcular() {
     const dadoAlt = document.getElementById('input-teste-2').value //valor da altura
     let conclusao = document.querySelector('.conclusao') //texto-resultado do formulario
     
-
+    //Calcular valor do IMC
     let peso = Number(dadoPeso)
     let altura = Number(dadoAlt)
-    let imc = peso / (altura * altura) //vlaor do imc
+    let imc = peso / (altura * altura) //valor do imc
 
     if(dadoPeso !== Number || dadoAlt !== Number){ //aviso ao usuário de preenchimento incorreto do formulário
         span.innerHTML = 'Por favor, preencher os dois campos acima com números (peso e altura)'
